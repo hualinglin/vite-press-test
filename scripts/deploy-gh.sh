@@ -15,7 +15,7 @@ cd docs/.vitepress/dist
 git init
 git add -A
 git commit -m 'deploy'
-# https://github.com/hualinglin/vite-press-test
+
 git push -f git@github.com:hualinglin/vite-press-test.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
